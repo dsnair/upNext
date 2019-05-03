@@ -1,4 +1,4 @@
-# Steps to Send SMS
+# Steps to Send SMS or MMS
 
 #1 
 ```bash
@@ -20,6 +20,8 @@ source ./twilio.env
 node send-sms.js
 ```
 
-returns the message SID in the console (starts with SM) and sends an SMS `to` the number provided
+```bash
+node send-mms.js
+```
 
-# Steps to Receive SMS
+returns the message SID in the console (starts with SM for SMS or MS for MMS) and sends an SMS (or MMS) `to` the number provided
