@@ -35,13 +35,12 @@ returns sends an SMS (or MMS) `to` the number provided
 ```bash
 npm init -y
 npm install express ngrok
-npm install -D nodemon
 ```
 
 #2 Write the express app in `server.js`, then
 
 ```bash
-npm run server
+node server.js
 ```
 
 returns the ngrok public URL
