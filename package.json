@@ -1,0 +1,31 @@
+{
+  "name": "upNext",
+  "version": "1.0.0",
+  "description": "Tired of burning your time while waiting in line being bored? Get your number in line and leave to grab coffee or anything else you'd rather do. upNext will text you when you're up soon!",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ngrok": "^3.1.1",
+    "twilio": "^3.30.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsnair/upNext.git"
+  },
+  "keywords": [
+    "twilio",
+    "express",
+    "ngrok"
+  ],
+  "author": "Divya Nair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsnair/upNext/issues"
+  },
+  "homepage": "https://github.com/dsnair/upNext#readme"
+}

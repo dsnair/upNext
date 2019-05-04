@@ -17,8 +17,8 @@ getURL()
 
 // route handlers
 const postSMS = (req, res) => {
-//   const twiml = new MessagingResponse()
-    const twiml = MessagingResponse.message('Hi Divya')
+  const twiml = new MessagingResponse()
+  twiml.message('Hi Divya')
   res.status(200).send(`${twiml}`)
 }
 
