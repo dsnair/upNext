@@ -1,4 +1,4 @@
-# Steps to Send (Outbound) SMS or MMS
+# Steps to Send (Outbound) MMS
 
 #1
 
@@ -20,15 +20,12 @@ source ./twilio.env
 #4
 
 ```bash
-node send-sms.js
-
-# or
 node send-mms.js
 ```
 
-returns sends an SMS (or MMS) `to` the number provided
+returns sends an MMS `to` the number provided
 
-# STEPS to Receive (Inbound) SMS or MMS
+# STEPS to Receive (Inbound) SMS
 
 #1
 
