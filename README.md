@@ -1,4 +1,10 @@
-# Steps to Send (Outbound) MMS
+# Product Description
+
+Tired of waiting in line, being bored and wasting your time? Get your number in line and leave to grab coffee or anything else you'd rather do. upNext will text you when you're up next in line!
+
+![screenshot of text messages showing how the product works](./productMVP.png)
+
+## Steps to Send (Outbound) MMS
 
 #1
 
@@ -25,7 +31,7 @@ node send-mms.js
 
 returns sends an MMS `to` the number provided
 
-# STEPS to Receive (Inbound) SMS
+## STEPS to Receive (Inbound) SMS
 
 #1
 
